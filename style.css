@@ -1,1 +1,35 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(to right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  font-family: Georgia, "Times New Roman", serif;
+  color: hsl(0, 0%, 15%);
+}
+
+.card {
+  width: min(520px, 100%);
+  padding: 28px 32px 32px;
+  background: hsla(0, 50%, 100%, 0.5);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.card p {
+  font-size: 13px;
+  line-height: 1.45;
+}
